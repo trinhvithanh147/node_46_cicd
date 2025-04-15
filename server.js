@@ -17,6 +17,7 @@ app.use(
     origin: ["http://localhost:5173"],
   })
 );
+
 app.use(express.static("."));
 // --------------------------------------------------------------------
 app.use(rootRouter);
